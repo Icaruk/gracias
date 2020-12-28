@@ -141,6 +141,9 @@ const pintaVersion = () => {
 
 
 const comprueba = () => {
+
+	const prLink = document.getElementsByClassName("prLink")[0];
+	prLink.style.opacity = 0;
 	
 	let ele = document.getElementsByClassName("inputComprueba")[0];
 	let eleResultado = document.getElementsByClassName("resultadoComprueba")[0];
@@ -154,11 +157,17 @@ const comprueba = () => {
 	
 	
 	if (adjetivos.includes(adjetivo)) {
-		eleResultado.innerText = `Ya existe`;
+		
+		eleResultado.innerText = "Ya existe :(";
 		eleResultado.classList.add("rojo");
+		
 	} else {
-		eleResultado.innerText = `No existe`;
+		
+		eleResultado.innerText = "¡No existe!";
 		eleResultado.classList.remove("rojo");
+		
+		prLink.style.opacity = 1;
+		
 	};
 	
 };
