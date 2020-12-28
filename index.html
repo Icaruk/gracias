@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gracias máquina</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	
+	<div class="main">
+		
+		<h1>
+			Gracias máquina
+		</h1>
+		
+		<p class="version">
+			Versión ?
+		</p>
+		
+		
+		
+		<div class="grupo">
+			
+			<textarea
+				class="input"
+				placeholder="Gracias máquina"
+				rows="12"
+				id="input"
+			></textarea>
+			
+			<p class="textoPulsaParaCopiar">Pulsa para copiar ↑</p>
+			
+			<p class="textoCopiado">Texto copiado, máquina</p>
+			
+			<button
+				class="boton"
+				onclick="gracias()"
+			>
+				Agradecer x 5
+			</button>
+			
+			
+			
+			<img
+				src="https://i.gyazo.com/54c644b71f7104887d56aa46aa713f24.png"
+				alt="rueda del ratón"
+				class="mousewheel"
+			/>
+			
+		</div>
+		
+		
+		
+		
+		<div class="grupo2">
+			
+			<p class="textoComprueba">Comprueba si tu adjetivo ya existe</p>
+			<input
+				placeholder="Adjetivo"
+				class="inputComprueba"
+			/>
+			
+			<button
+				class="botonComprueba"
+				onclick="comprueba()"
+			>Comprobar</button>
+			
+			<p class="resultadoComprueba"></p>
+			
+		</div>
+		
+		
+	</div>
+	
+	
+	<script src="app.js"></script>
+	
+</body>
+</html>
