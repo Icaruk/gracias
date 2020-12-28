@@ -100,6 +100,8 @@ document.addEventListener("wheel", (ev) => {
 document.getElementById("input").addEventListener("click", ev => {
 	
 	let ele = ev.target;
+	if (!ele.value) return;
+	
 	ele.select();
 	ele.setSelectionRange(0, 99999);
 	
