@@ -14,7 +14,7 @@ const adjetivos = [
 	"socio", "jefe", "capitán", "sargento", "coronel", "mariscal", "macho alfa", 
 	
 	// Desastres
-	"tifón", "huracán", "terremoto", "maremoto", "tornado", "tsunami", "ciclón", "lluvia torrencial", 
+	"tifón", "huracán", "terremoto", "maremoto", "tornado", "tsunami", "ciclón", "lluvia torrencial", "rompetormentas",
 	
 	// Cosas de metal
 	"caza de combate", "robocop", "truck", "maquinola", "terminator", "tanque", "helicóptero", "pieza", "buque",  
